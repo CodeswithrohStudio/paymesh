@@ -1,0 +1,29 @@
+{
+  "name": "paymesh-x402",
+  "version": "1.0.0",
+  "description": "Stripe for x402 - Add payments to any API in 3 lines",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist --declaration --skipLibCheck --esModuleInterop --module commonjs --target ES2021 --declarationMap || true"
+  },
+  "keywords": [
+    "x402",
+    "payments",
+    "crypto",
+    "USDC",
+    "Base",
+    "middleware"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
